@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Nike AF1",
+    "category": "street",
+    "price": 35000,
+    "amount": 1
+  },
+
+  {
+    "id": 2,
+    "name": "low DC",
+    "category": "street",
+    "price": 22000,
+    "amount": 1
+  },
+
+  {
+    "id": 3,
+    "name": "Adidas L3",
+    "category": "deportes",
+    "price": 24500,
+    "amount": 1
+  },
+
+  {
+    "id": 4,
+    "name": "Fila Z1",
+    "category": "deportes",
+    "price": 21500,
+    "amount": 1
+  },
+
+  {
+    "id": 5,
+    "name": "Nike SB",
+    "category": "street",
+    "price": 22000,
+    "amount": 1
+  },
+
+  {
+    "id": 6,
+    "name": "Toppper handball",
+    "category": "deportes",
+    "price": 17200,
+    "amount": 1
+  },
+
+  {
+    "id": 7,
+    "name": "Nike AIRMAX",
+    "category": "street",
+    "price": 27500,
+    "amount": 1
+  },
+
+  {
+    "id": 8,
+    "name": "Adidas SuperStar",
+    "category": "street",
+    "price": 21400,
+    "amount": 1
+  },
+
+  { "id": 9, "name": "DC", "category": "street", "price": 31600, "amount": 1 },
+
+  {
+    "id": 10,
+    "name": "Jordan MID1",
+    "category": "street",
+    "price": 47000,
+    "amount": 1
+  }
+]

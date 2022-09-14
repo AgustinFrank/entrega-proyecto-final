@@ -35,7 +35,6 @@ const cargarProductos = () => {
     const producto = stockProductos[i];
     const { id, name, category, price, amount } = producto;
     const productoHTML = `
-            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             <div class="producto">
                 <div class="producto-img">
                     <img src="" alt="${name}">
@@ -157,3 +156,30 @@ const alertCarrito = () => {
     confirmButtonText: "Seguir",
   });
 };
+
+fetch("productos.json")
+  .then((res) => res.json())
+  .then((json) => {
+    let arrayProd = json.results;
+    let html = "";
+    arrayProd.array.forEach((prod) => {
+      html += `
+      <div class="producto">
+          <div class="producto-img">
+              <img src="" alt="${name}">
+          </div>
+          <div class="producto-info">
+              <h2>${name}</h2>
+              <p>${category}</p>
+              <p>${price}</p> 
+              <p>${amount}</p>
+            <button> <a href="./carritoDeCompras.html"></a></button>
+          </div>
+      </div>
+      `;
+    });
+    document.getElementById("listado-productos-index").innerHTML = html;
+  })
+  .catch((e) => {
+    console.log(e);
+  });
